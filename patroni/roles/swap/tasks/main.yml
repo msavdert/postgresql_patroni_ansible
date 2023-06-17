@@ -15,7 +15,7 @@
   when: swap_exists.stdout is defined and swap_exists.stdout | length > 1
   tags: swap, swap_create, swap_remove
 
-# if the swap exists and the size is not equal to swap_file_size_mb
+# if the swap exists and the size is not bigger then swap_file_size_mb
 - block:
     - name: Disable all existing swaps
       command: swapoff --all
