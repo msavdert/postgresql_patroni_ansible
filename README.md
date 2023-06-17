@@ -1,9 +1,9 @@
-# Vagrant Builds
+# Ansible Builds
 
-Just some Vagrant builds I use.
+Just some Ansible builds I use.
 
-## What is Vagrant?
+## What is Ansible?
 
-If you don't know how to use Vagrant, you might want to read this introduction.
+If you don't know how to use Ansible, you might want to read this introduction.
 
-* [Vagrant : A Beginner's Guide](https://developer.hashicorp.com/vagrant/tutorials)
+* [Ansible : A Beginner's Guide](https://docs.ansible.com/ansible/latest/getting_started/index.html)
