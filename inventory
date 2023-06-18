@@ -22,11 +22,11 @@
 
 # PostgreSQL nodes
 [master]
-10.0.0.11 hostname=patroni01 postgresql_exists=false ansible_ssh_private_key_file=/Users/melihsavdert/ansible-examples/patroni/.vagrant/machines/patroni01/virtualbox/private_key
+10.0.0.11 hostname=patroni01 postgresql_exists=false ansible_ssh_private_key_file=/Users/melihsavdert/ansible-examples/.vagrant/machines/patroni01/virtualbox/private_key
 
 [replica]
-10.0.0.12 hostname=patroni02 postgresql_exists=false ansible_ssh_private_key_file=/Users/melihsavdert/ansible-examples/patroni/.vagrant/machines/patroni02/virtualbox/private_key
-10.0.0.13 hostname=patroni03 postgresql_exists=false ansible_ssh_private_key_file=/Users/melihsavdert/ansible-examples/patroni/.vagrant/machines/patroni03/virtualbox/private_key
+10.0.0.12 hostname=patroni02 postgresql_exists=false ansible_ssh_private_key_file=/Users/melihsavdert/ansible-examples/.vagrant/machines/patroni02/virtualbox/private_key
+10.0.0.13 hostname=patroni03 postgresql_exists=false ansible_ssh_private_key_file=/Users/melihsavdert/ansible-examples/.vagrant/machines/patroni03/virtualbox/private_key
 #10.128.64.144 hostname=pgnode04 postgresql_exists=false new_node=true
 
 [postgres_cluster:children]

@@ -8,7 +8,6 @@
 [<img src="https://github.com/vitabaks/postgresql_cluster/workflows/Flake8/badge.svg?branch=master">](https://github.com/vitabaks/postgresql_cluster/actions?query=workflow%3AFlake8)
 [<img src="https://github.com/vitabaks/postgresql_cluster/workflows/Molecule/badge.svg?branch=master">](https://github.com/vitabaks/postgresql_cluster/actions?query=workflow%3AMolecule)
 [![GitHub license](https://img.shields.io/github/license/vitabaks/postgresql_cluster)](https://github.com/vitabaks/postgresql_cluster/blob/master/LICENSE) 
-![GitHub stars](https://img.shields.io/github/stars/vitabaks/postgresql_cluster)
 
 ### Deploy a Production Ready PostgreSQL High-Availability Cluster (based on "Patroni" and DCS "etcd" or "consul"). Automating with Ansible.
 

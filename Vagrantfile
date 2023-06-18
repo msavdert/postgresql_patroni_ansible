@@ -8,7 +8,8 @@ IP_START           = 10
 
 Vagrant.configure("2") do |config|
     config.vm.provision "shell", inline: <<-SHELL
-      yum update -y
+#      yum update -y
+      echo "Hello"
     SHELL
     config.vm.box = var_box
     config.vm.box_check_update = true
